@@ -64,7 +64,7 @@ function CompomentInput({ stateChang , navigation}) {
                     justifyContent: 'center', width: '80%', height: responsiveHeight(20)
                 }}>
                     <TouchableOpacity style={{ backgroundColor: '#e84c4f', borderRadius: 10, paddingVertical: 10, paddingHorizontal: 20,   justifyContent: 'center', alignItems: 'center' }} 
-                onPress={() => navigation.navigate('HomePage')}
+                onPress={() => navigation.navigate('HomeTabs')}
                     >
                         <Text style={{ fontSize: 30, color: 'white' }}>SIGN IN</Text>
                     </TouchableOpacity>
