@@ -1,5 +1,10 @@
 # React-Navite-App-Dat-do-an
 STATUS: UPDATE
+Page design:;
+
+![image](https://github.com/huu77/React-Navite-App-Dat-do-an/assets/97447370/c662e362-0cf6-4319-98b7-40327c9570e9)
+
+
 1.Wellcome Page
 
 ![image](https://github.com/huu77/React-Navite-App-Dat-do-an/assets/97447370/00e25f4d-79c7-4631-a6d9-93028a732b1a)
