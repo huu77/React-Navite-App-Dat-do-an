@@ -7,26 +7,12 @@ import {
   responsiveWidth,
   responsiveFontSize
 } from "react-native-responsive-dimensions";
-import HeaderPage from './HeaderPage'
-import Store1 from './Store1';
-import BtnCheckOut from './btnCheckOut';
-function PromoPage({ navigation }) {
+ 
+function DetailStore({ navigation }) {
 
   return (
     <View style={{flex:1, width: '100%',height:'auto' ,position:'relative'}}>
-      <HeaderPage navigation={navigation}/>
-      
-      <ScrollView
-        contentContainerStyle={styles.scrollViewContent}
-        showsVerticalScrollIndicator={false}
-      >
-        <Store1 navigation={navigation}/>
-        <Store1 navigation={navigation}/>
-        
-         
-        
-      </ScrollView>
-      <BtnCheckOut navigation={navigation}/>
+       <Text>detail store</Text>
     </View>
   );
 }
@@ -39,4 +25,4 @@ const styles = StyleSheet.create({
   },
    
 });
-export default PromoPage
+export default DetailStore

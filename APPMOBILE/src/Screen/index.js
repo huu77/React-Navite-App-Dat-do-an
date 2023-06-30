@@ -5,6 +5,7 @@ import UserPage from './UserPage'
 import UserOrder from './UserOrder'
 import MyShop from './MyShop'
 import PromoPage from './PromoPage'
+import DetailStore from './DetailStore'
 export {
     WellcomePage,
     Login_RegisterPage,
@@ -12,5 +13,6 @@ export {
     UserPage,
     UserOrder,
     MyShop,
-    PromoPage
+    PromoPage,
+    DetailStore
 }

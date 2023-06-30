@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { WellcomePage, Login_RegisterPage, HomePage, UserPage, UserOrder, MyShop,PromoPage } from '../Screen/index'
+import { WellcomePage, Login_RegisterPage, HomePage, UserPage, UserOrder, MyShop,PromoPage ,DetailStore} from '../Screen/index'
 import Icon from 'react-native-vector-icons/Entypo';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 const Stack = createNativeStackNavigator();
@@ -39,6 +39,7 @@ function Navigation() {
         <Stack.Screen name="Login_RegisterPage" component={Login_RegisterPage} options={{ headerShown: false }} />
         <Stack.Screen name="HomeTabs" component={MyTabs} options={{ headerShown: false ,}} />
         <Stack.Screen name="PromoPage" component={PromoPage} options={{ headerShown: false ,}} />
+        <Stack.Screen name="DetailStore" component={DetailStore} options={{ headerShown: false ,}} />
       </Stack.Navigator>
     </NavigationContainer>
   );
