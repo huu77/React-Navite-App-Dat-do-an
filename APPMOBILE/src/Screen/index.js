@@ -6,6 +6,10 @@ import UserOrder from './UserOrder'
 import MyShop from './MyShop'
 import PromoPage from './PromoPage'
 import DetailStore from './DetailStore'
+import CheckoutPage from './CheckoutPage'
+import PaymentPage from './PaymentPage'
+import AddCash from './PaymentPage/AddCart'
+import SuccesPage from './SuccesPage'
 export {
     WellcomePage,
     Login_RegisterPage,
@@ -14,5 +18,9 @@ export {
     UserOrder,
     MyShop,
     PromoPage,
-    DetailStore
+    DetailStore,
+    CheckoutPage,
+    PaymentPage,
+    AddCash,
+    SuccesPage
 }

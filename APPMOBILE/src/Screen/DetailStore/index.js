@@ -7,12 +7,16 @@ import {
   responsiveWidth,
   responsiveFontSize
 } from "react-native-responsive-dimensions";
- 
+ import Header from './Header';
+ import Navbar from './Navbar';
+ import BtnCheckOut from './BtnCheckout';
 function DetailStore({ navigation }) {
 
   return (
     <View style={{flex:1, width: '100%',height:'auto' ,position:'relative'}}>
-       <Text>detail store</Text>
+       <Header navigation={navigation}/>
+       <Navbar navigation={navigation}/>
+       <BtnCheckOut navigation={navigation}/>
     </View>
   );
 }
