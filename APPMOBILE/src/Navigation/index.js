@@ -11,7 +11,7 @@ import {
   PromoPage,
   DetailStore,
   CheckoutPage,
-  PaymentPage,AddCash,SuccesPage
+  PaymentPage,AddCash,SuccesPage,SuccessPageV2
 } from '../Screen/index'
 import Icon from 'react-native-vector-icons/Entypo';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -52,15 +52,16 @@ function Navigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="WellcomePage">
-        <Stack.Screen name="WellcomePage" component={WellcomePage} options={{ headerShown: false }} />
-        <Stack.Screen name="Login_RegisterPage" component={Login_RegisterPage} options={{ headerShown: false }} />
+        {/* <Stack.Screen name="WellcomePage" component={WellcomePage} options={{ headerShown: false }} />
+        <Stack.Screen name="Login_RegisterPage" component={Login_RegisterPage} options={{ headerShown: false }} /> */}
         <Stack.Screen name="HomeTabs" component={MyTabs} options={{ headerShown: false ,}} />
-        <Stack.Screen name="PromoPage" component={PromoPage} options={{ headerShown: false ,}} />
+        {/* <Stack.Screen name="PromoPage" component={PromoPage} options={{ headerShown: false ,}} />
         <Stack.Screen name="DetailStore" component={DetailStore} options={{ headerShown: false, }} />
         <Stack.Screen name="CheckoutPage" component={CheckoutPage}  options={{ headerShown: false, }}  />
         <Stack.Screen name="PaymentPage" component={PaymentPage}  options={{ headerShown: false, }}  />
         <Stack.Screen name="AddCash" component={AddCash}  options={{ headerShown: false, }}  />
-        {/* <Stack.Screen name="SuccesPage" component={SuccesPage}  options={{ headerShown: false, }}  /> */}
+        <Stack.Screen name="SuccesPage" component={SuccesPage}  options={{ headerShown: false, }}  />
+        <Stack.Screen name="SuccessPageV2" component={SuccessPageV2}  options={{ headerShown: false, }}  /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

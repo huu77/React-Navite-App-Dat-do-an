@@ -10,6 +10,7 @@ import CheckoutPage from './CheckoutPage'
 import PaymentPage from './PaymentPage'
 import AddCash from './PaymentPage/AddCart'
 import SuccesPage from './SuccesPage'
+import SuccessPageV2 from './SuccesPage/SuccessPageV2'
 export {
     WellcomePage,
     Login_RegisterPage,
@@ -22,5 +23,6 @@ export {
     CheckoutPage,
     PaymentPage,
     AddCash,
-    SuccesPage
+    SuccesPage,
+    SuccessPageV2
 }

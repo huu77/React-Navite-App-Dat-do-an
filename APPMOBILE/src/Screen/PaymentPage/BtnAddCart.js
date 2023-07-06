@@ -7,13 +7,12 @@ import {
     responsiveFontSize
 } from "react-native-responsive-dimensions";
 
-function BtnPlaceOder({ navigation }) {
+function BtnAddCart({ navigation }) {
 
     return (
         <View style={styles.bodyContainer}>
-            <TouchableOpacity onPress={() => navigation.navigate('SuccesPage')}  style={styles.button}>
-                <Text style={styles.btnText}>Place Order</Text>
-                <Text style={styles.btnText}>18.000 vnd</Text>
+            <TouchableOpacity onPress={() => navigation.navigate('SuccessPageV2')}  style={styles.button}>
+                <Text style={styles.btnText}>Continue</Text>
             </TouchableOpacity>
         </View>
     );
@@ -25,7 +24,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems:'center',
         justifyContent:'center',
-      
+        position:'absolute',
+        bottom:20
 
     },
     button:{
@@ -33,9 +33,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#e84c4f',
         height:responsiveHeight(8),
         borderRadius:10,
-        flexDirection:'row',
-        justifyContent:'space-between',paddingHorizontal:10,
-        alignItems:'center'
+        alignItems:'center',
+        justifyContent:'center'
 
     },
     btnText:{
@@ -44,4 +43,4 @@ const styles = StyleSheet.create({
         fontFamily:'Poppins-Black'
     }
 });
-export default BtnPlaceOder
+export default BtnAddCart
